@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+body {
+	color: #000000;
+	background-size: cover;
+	background-color: #CBCBCB;
+}
+.pHome {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#mainPhoto {
+	float: none;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+nav {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	text-align: center;
+}
+nav a {
+	border: medium solid hsla(0,0%,0%,1.00);
+	background-color: hsla(0,0%,99%,0.46);
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	display: block;
+	margin-left: 2%;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.banner {
+	background-image: url(pexels-forest_banner.jpg);
+	background-size: cover;
+	border-width: thin;
+	border-style: solid;
+}
+h1 {
+	color: hsla(0,0%,100%,1.00);
+	text-align: center;
+	font-size: xx-large;
+	padding-top: 10px;
+}
+.ulBox {
+	width: 0%;
+	float: none;
+}
+h2 {
+	text-decoration: underline;
+}
+.centerBox {
+	text-align: center;
+}
+ul li {
+	display: block;
+	margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:480px){
+#mainPhoto {
+	float: right;
+	border-radius: 20%;
+}
+.leftFloat {
+	float: left;
+	display: block;
+	width: 49%;
+}
+.rightFloat {
+	float: right;
+	display: block;
+	width: 49%;
+}
+nav a {
+	display: inline;
+}
+
+
+
+
+
+}

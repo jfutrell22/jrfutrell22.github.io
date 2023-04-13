@@ -1,0 +1,197 @@
+@charset "utf-8";
+#mainPhoto {
+	border-radius: 10%;
+	margin-left: 0vw;
+	margin-right: 0vmax;
+	left: auto;
+	right: auto;
+	border: thick solid #414141;
+
+
+}
+.profilePic {
+	text-align: center;
+	margin-top: 10px;
+}
+.pageBottom {
+	text-align: center;
+	margin-bottom: 10px;
+	clear: both;
+}
+.banner {
+	background-image: url(pexels-forest_sqauare.jpg);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: thick solid #414141;
+	border-radius: 15px;
+}
+
+
+
+.banner nav a {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.navButton {
+	text-align: center;
+	border: medium solid hsla(0,0%,0%,1.00);
+	border-radius: 3px;
+	margin-bottom: 5px;
+	background-color: hsla(0,0%,85%,0.75);
+}
+.banner h1 {
+	text-align: center;
+	margin-top: 10px;
+	color: hsla(0,0%,100%,1.00);
+	margin-bottom: 10px;
+}
+.ulBox h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+.ulBox ul li {
+	text-align: left;
+}
+.contactContainer {
+	text-align: center;
+}
+.contactContainer h2 {
+	text-decoration: underline;
+}
+.contactContainer h3 {
+	text-decoration: underline;
+}
+body {
+	background-color: #CBCBCB;
+}
+.ulBox {
+	display: inline-block;
+}
+.projectContainer h2 {
+	text-decoration: underline;
+	text-align: center;
+	clear: both;
+}
+
+.divRow {
+	display: flex;
+	flex-direction: column;
+}
+.submitButton {
+	display: flex;
+	justify-content: center;
+	padding: 2px;
+
+}
+.divRow > * {
+	margin-right: 3px;
+}
+div.contactDiv {
+	margin-top: 5px;
+}
+div.contactContent {
+	text-align: center;
+	border: thick solid #414141;
+	border-radius: 15px;
+	padding: 10px;
+}
+form#contactForm {
+	border: thick solid #414141;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+@media (min-width:480px){
+.profilePic {
+	float: right;
+
+}
+.banner nav .navButton {
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.banner nav {
+	text-align: center;
+}
+.leftFloat {
+	float: left;
+	text-align: center;
+
+}
+.rightFloat {
+	float: right;
+	text-align: center;
+}
+.ulBox {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+.ulBox h2 {
+	text-align: center;
+}
+.ulBox ul {
+	margin: 0 auto;
+	display: inline-block;	
+}
+.projectImage {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 3%;
+
+}
+
+.projectImage {
+	width: auto;
+	border-radius: 3px;
+	max-width: 90%;
+	margin-bottom: 10%;
+}
+
+div.divRow {
+	margin: 10px 0px;
+}
+
+
+div.contactDiv {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+div.contactContent {
+	width: 45%;
+}
+form#contactForm {
+	width: 45%;
+}
+
+
+}
+
+@media (min-width:840px){
+.leftFloatProject {
+	float: left;
+}
+.rightFloatProject {
+	float: right;
+
+}
+.projectImage {
+	width: 40%;
+	margin-bottom: 0px;
+}
+
+
+
+}
